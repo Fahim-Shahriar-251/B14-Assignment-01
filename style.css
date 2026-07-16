@@ -21,6 +21,24 @@ img {
     cursor: pointer;
 }
 
+.outline-btn {
+    color: #1D4ED8;
+    background-color: white;
+    border: 1px solid #2563ebFF;
+    border-radius: 8px;
+    padding: 11px;
+    cursor: pointer;
+}
+
+.outline-btn2 {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 11px;
+    cursor: pointer;
+}
+
 .container {
     max-width: 1200px;
     margin: auto;
@@ -45,7 +63,7 @@ nav {
     height: 40px;
 }
 
-.container ul {
+.navbar-ul {
     display: flex;
     list-style-type: none;
     gap: 20px;
@@ -134,4 +152,78 @@ nav {
 
 .box img {
     border-radius: 12px 12px 0px 0px;
+}
+
+/* secure your spot section style */
+
+.secure-spot-parent-heading {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.secure-spot-parent-paragraph {
+    color: #575757FF;
+    ;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 5px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.card-child {
+    border: 1px solid #e5e7ebFF;
+    border-radius: 12px;
+    padding: 32px;
+}
+
+/* highlighted-card style */
+.highlighted-card,
+.highlighted-card h2 {
+    background-color: #0d1b2aFF;
+    color: white !important;
+}
+
+.highlighted-card>h5:first-child {
+    color: #93c5fdFF !important;
+}
+
+/* highlighted-card style end*/
+
+.card h5 {
+    color: #888888FF;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.card h2 {
+    color: #0d1b2aFF;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.card-child hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.card-child ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.card-child button {
+    margin-top: 40px;
+    width: 100%;
 }
