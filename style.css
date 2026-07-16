@@ -102,3 +102,36 @@ nav {
 .banner button {
     margin-bottom: 50px;
 }
+
+/* meet the speaker section style */
+
+.speaker-heading {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.speaker-root {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 25px;
+    margin-bottom: 150px;
+}
+
+.speaker-root h5,
+.speaker-root h2,
+.speaker-root p {
+    padding: 8px;
+}
+
+.box {
+    border: 1px solid #e5e7ebFF;
+    border-radius: 12px 12px;
+}
+
+.box img {
+    border-radius: 12px 12px 0px 0px;
+}
