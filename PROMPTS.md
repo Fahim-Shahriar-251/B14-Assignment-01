@@ -44,7 +44,7 @@
         <section class="banner-root">
             <section class="banner container">
                 <div>
-                    <h2>Code.<em>Connect</em>.Create</h2>
+                    <h2>Code.Connect.Create</h2>
                     <p>
                         Join 4,000+ engineers, founders, and builders at the premier developer conference of 2026. Three
                         days of cutting-edge talks, hands-on workshops, and meaningful connections.
@@ -156,51 +156,11 @@
                 </div>
             </div>
         </section>
-
-        <!-- Developer Challenge Arena section start -->
-        <section class="challenge-section">
-            <div class="container">
-                <h2 class="challenge-heading">Developer Challenge Arena</h2>
-                <p class="challenge-description">
-                    Put your skills to the test during DevConf 2026. Participate in exciting
-                    coding activities, collaborate with fellow developers, and win exclusive
-                    conference rewards.
-                </p>
-
-                <div class="challenge-container">
-
-                    <div class="challenge-card">
-                        <div class="challenge-icon">💻</div>
-                        <h3>Live Coding Battle</h3>
-                        <p>
-                            Solve real programming problems under time pressure and compete
-                            against developers from around the world.
-                        </p>
-                    </div>
-
-                    <div class="challenge-card">
-                        <div class="challenge-icon">🚀</div>
-                        <h3>Mini Hackathon</h3>
-                        <p>
-                            Build an innovative project in just six hours with your teammates
-                            using modern web technologies.
-                        </p>
-                    </div>
-
-                    <div class="challenge-card">
-                        <div class="challenge-icon">🏆</div>
-                        <h3>Win Amazing Prizes</h3>
-                        <p>
-                            Top performers will receive premium gadgets, conference merchandise,
-                            and exclusive networking opportunities.
-                        </p>
-                    </div>
-
-                </div>
-            </div>
+        <!-- secure your section spot end-->
+        <section>
+            
         </section>
-        <!-- Developer Challenge Arena section end -->
-
+        <!-- missing section start -->
     </header>
 
     <!-- footer section start -->
@@ -235,3 +195,268 @@
 </body>
 
 </html>
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 0;
+    font-family: "Arimo", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* common btn */
+.common-btn {
+    background-color: #1D4ED8;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 25px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.outline-btn {
+    color: #1D4ED8;
+    background-color: white;
+    border: 1px solid #2563ebFF;
+    border-radius: 8px;
+    padding: 11px;
+    cursor: pointer;
+}
+
+.outline-btn2 {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 11px;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px !important;
+    margin-bottom: 15px !important;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.navbar-ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+}
+
+/* banner style */
+.banner-root {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+        url("./assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 786px;
+}
+
+.banner h2,
+.banner p {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner h2 {
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: -3px;
+    color: #ffffffFF;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+.banner p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #ffffffE5;
+}
+
+.banner button {
+    margin-bottom: 50px;
+}
+
+/* meet the speaker section style */
+
+.speaker-heading {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.speaker-root {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 25px;
+    margin-bottom: 150px;
+}
+
+.speaker-root h5,
+.speaker-root h2,
+.speaker-root p {
+    padding: 8px;
+}
+
+.box {
+    border: 1px solid #e5e7ebFF;
+    border-radius: 12px 12px;
+}
+
+.box img {
+    border-radius: 12px 12px 0px 0px;
+}
+
+/* secure your spot section style */
+
+.secure-spot-parent-heading {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.secure-spot-parent-paragraph {
+    color: #575757FF;
+    ;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 5px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.card-child {
+    border: 1px solid #e5e7ebFF;
+    border-radius: 12px;
+    padding: 32px;
+}
+
+/* highlighted-card style */
+.highlighted-card,
+.highlighted-card h2 {
+    background-color: #0d1b2aFF;
+    color: white !important;
+}
+
+.highlighted-card>h5:first-child {
+    color: #93c5fdFF !important;
+}
+
+/* highlighted-card style end*/
+
+.card h5 {
+    color: #888888FF;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.card h2 {
+    color: #0d1b2aFF;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.card-child hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.card-child ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.card-child button {
+    margin-top: 40px;
+    width: 100%;
+}
+
+/* footer section style */
+
+.above-divider {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    font-size: x-large;
+}
+
+.footer-icon-parent {
+    color: #1D4ED8;
+    cursor: pointer;
+}
+
+.insider-divider {
+    height: 145px;
+    background-color: #0d1b2aFF;
+    color: #888888FF;
+    font-weight: 400;
+    line-height: 1.22;
+}
+
+.copy-right-message {
+    display: grid;
+    grid-template-columns: 2fr auto auto;
+    align-items: center;
+    gap: 20px;
+    padding: 65px;
+}
+
+--
+Here is project. Now think that you are a beginner as web developer current learnt just html and css. In the missing section which i mentioned by a comment, add the section and give me the html and css code as required for the missing section only.
+The section must stay relevant to the DevConf 2026 theme (e.g. Sponsors, Venue, FAQ, Newsletter Signup, Hackathon Details, Past Highlights, Job Board, etc.). Pick your best choice which should be creative and unique. (Use only html and css)
